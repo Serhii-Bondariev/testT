@@ -8,9 +8,9 @@ const parser = new Parser();
 const rssFeeds = [
   'https://www.pravda.com.ua/rss/',
   'https://rss.unian.ua/site/news_ukr.rss',
-  'https://www.radiosvoboda.org/z/630',
+  // 'https://www.radiosvoboda.org/z/630',
   'https://www.bbc.com/ukrainian/index.xml',
-  'https://tsn.ua/rss/full.rss',
+  'https://rss.unian.ua/site/news_ukr.rss',
 ];
 
 let lastLinks = new Set();
